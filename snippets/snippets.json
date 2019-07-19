@@ -1,0 +1,12 @@
+{
+  "ClassicPress Version Function": {
+    "prefix": "cp_version",
+    "body": "classicpress_version();",
+    "description": "Preferred way to check is ClassicPress is running as core for CMS"
+  },
+  "If ClassicPress Version Function": {
+    "prefix": "ife_cp_version",
+    "body": "if(function_exists('classicpress_version')) {}",
+    "description": "Preferred way to check is ClassicPress is running as core for CMS"
+  }
+}
