@@ -1,17 +1,31 @@
 {
 	"name": "classicpress-snippets",
-	"displayName": "ClassicPress - Snippets & autocomplete",
-	"description": "A collection of snippets for ClassicPress development",
-	"repository": "https://github.com/bahiirwa/classicpress-snippets",
+	"displayName": "ClassicPress snippets and autocompletions.",
+	"description": "A collection of snippets and autocompletions for ClassicPress & WordPress theme and plugins development.",
+	"publisher": "laurencebahiirwa",
+	"author": {
+		"name": "Laurence Bahiirwa"
+	},
+	"license": "GPLv3",
+	"homepage": "https://github.com/bahiirwa/classicpress-snippets",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bahiirwa/classicpress-snippets"
+	},
+	"bugs": {
+		"url": "https://github.com/bahiirwa/classicpress-snippets/issues"
+	},
 	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.18.0"
 	},
-	"license": "GPLv3",
-	"icon": "https://github.com/bahiirwa/classicpress-snippets/blob/master/images/classicpress-logo.png",
+	"icon": "images/classicpress-logo.png",
 	"keywords": [
 		"php",
-		"classicpress"
+		"ClassicPress",
+		"WordPress",
+		"plugin",
+		"themes"
 	],
 	"categories": [
 		"Snippets"

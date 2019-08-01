@@ -1,33 +1,34 @@
 # Classicpress Snippets
 
-This is a collection of WordPress snippets and autocompletions for Visual Studio Code
+This is a collection of WordPress snippets and autocompletions for Visual Studio Code.
+
+Classicpress Snippets is meant to help VS Code users to leverage snippets from ClassicPress and WordPress for Development. This is a personal project and not an official extension from ClassicPress.net.
+
+### How to use
+
+Type `start_plugin` or `cp_dev` and hit tab to see autocompletions in work.
+
+![Demo](images/demo.gif)
 
 -   License: GPLv3
 -   Version: 0.1.0
 -   Extension URI: https://github.com/bahiirwa/classicpress-snippet
 
-Classicpress Snippets is meant to help VS Code users to leverage snippets from ClassicPress and WordPress for Development. This is a personal project and not an official extension from ClassicPress.net.
-
 ### Features
 
 Autocomplete for:
 
-    CP version : 1.0.1
-
-    Functions          : 2
-    Constants/Classes  :  0
-
-    WP version : 4.6.1
-
-    Functions          : 2884
-    Constants/Classes  :  191
+|                    | Functions | Constants/Classes |
+| ------------------ | :-------: | ----------------: |
+| ClassicPress 1.0.1 |    10     |                 0 |
+| WordPress 4.6.1    |   2884    |               191 |
 
 ### Install instructions
 
 Install via Extension Marketplace
 
 -   Open Command on Visual Studio Code (Ctrl+Shift+P on Windows or Cmd+Shift+P on Mac/OSX)
--   > ext install wordpress-snippet
+-   > ext install classicpress-snippet
 -   Wait until install complete and restart VS Code
 
 ## Known Issues
