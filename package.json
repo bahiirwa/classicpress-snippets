@@ -1,20 +1,39 @@
 {
-  "name": "classicpress-snippets",
-  "displayName": "classicpress-snippets",
-  "description": "Snippets for ClassicPress development",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.36.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "php",
-        "path": "./snippets/snippets.json"
-      }
-    ]
-  }
+	"name": "classicpress-snippets",
+	"displayName": "ClassicPress - Snippets & autocomplete",
+	"description": "A collection of snippets for ClassicPress development",
+	"repository": "https://github.com/bahiirwa/classicpress-snippets",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"license": "GPLv3",
+	"icon": "https://github.com/bahiirwa/classicpress-snippets/images/classicpress-icon.png",
+	"keywords": [
+		"php",
+		"classicpress"
+	],
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "php",
+				"path": "./snippets/plugin.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/cp/snippets.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/wp/functions.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/wp/classes.json"
+			}
+		]
+	}
 }

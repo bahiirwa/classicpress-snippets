@@ -1,65 +1,43 @@
-# classicpress-snippets README
+# Classicpress Snippets
 
-This is the README for your extension "classicpress-snippets". After writing up a brief description, we recommend including the following sections.
+This is a collection of WordPress snippets and autocompletions for Visual Studio Code
 
-## Features
+-   License: GPLv3
+-   Version: 0.1.0
+-   Extension URI: https://github.com/bahiirwa/classicpress-snippet
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Classicpress Snippets is meant to help VS Code users to leverage snippets from ClassicPress and WordPress for Development. This is a personal project and not an official extension from ClassicPress.net.
 
-For example if there is an image subfolder under your extension project workspace:
+### Features
 
-\!\[feature X\]\(images/feature-x.png\)
+Autocomplete for:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+    CP version : 1.0.1
 
-## Requirements
+    Functions          : 2
+    Constants/Classes  :  0
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+    WP version : 4.6.1
 
-## Extension Settings
+    Functions          : 2884
+    Constants/Classes  :  191
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### Install instructions
 
-For example:
+Install via Extension Marketplace
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+-   Open Command on Visual Studio Code (Ctrl+Shift+P on Windows or Cmd+Shift+P on Mac/OSX)
+-   > ext install wordpress-snippet
+-   Wait until install complete and restart VS Code
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Need to add WordPress functions between 4.6.1 and 4.9.9
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Initial Release of a ClassicPress Development snippets extension. This is a personal project and not an official extension.
 
-### 1.0.0
+### 0.1.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release

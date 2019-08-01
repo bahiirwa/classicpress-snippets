@@ -1,0 +1,17 @@
+{
+  "ClassicPress Version Function": {
+    "prefix": "cp_version",
+    "body": "classicpress_version();",
+    "description": "Returns ClassicPress version e.g 1.0.0. Also the preferred way to check is ClassicPress is running as core for CMS"
+  },
+  "If ClassicPress Version Function": {
+    "prefix": "cp_if_version",
+    "body": [
+      "if ( function_exists( 'classicpress_version' ) ) {",
+      "   //logic",
+      "   ${1:logic}",
+      "}"
+    ],
+    "description": "Check if ClassicPress version function - classicPress_version() is available."
+  }
+}

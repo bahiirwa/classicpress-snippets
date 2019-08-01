@@ -1,0 +1,16 @@
+{
+  "Plugin_start": {
+    "prefix": "cp_plugin_start",
+    "body": [
+      "/**",
+      " * Plugin Name: ${1:Plugin Name}",
+      " * Author Name: ${2:Plugin Author Name}",
+      " * Plugin URI: ${3:Plugin Author Link}",
+      " * Author URI: ${4:Plugin Author Link}",
+      " * Description: ${5:Plugin description of what it does}",
+      " * Version: ${6:Plugin version}",
+      "*/"
+    ],
+    "description": "Required lines to start a plugin in WordPress"
+  }
+}
