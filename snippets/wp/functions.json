@@ -1619,11 +1619,6 @@
       "body": "export_wp(${1:\\$args})",
       "description": "Generates the WXR export file for download."
     },
-    "extract_from_markers": {
-      "prefix": "extract_from_markers",
-      "body": "extract_from_markers(${1:\\$filename}, ${2:\\$marker})",
-      "description": "Extracts strings from between the BEGIN and END markers in the .htaccess file."
-    },
     "favorite_actions": {
       "prefix": "favorite_actions",
       "body": "favorite_actions()",
@@ -4554,11 +4549,7 @@
       "body": "insert_blog(${1:\\$domain}, ${2:\\$path}, ${3:\\$site_id})",
       "description": "Store basic site info in the blogs table."
     },
-    "insert_with_markers": {
-      "prefix": "insert_with_markers",
-      "body": "insert_with_markers(${1:\\$filename}, ${2:\\$marker}, ${3:\\$insertion})",
-      "description": "Inserts an array of strings into a file (.htaccess) placing it between BEGIN and END markers."
-    },
+    
     "install_blog": {
       "prefix": "install_blog",
       "body": "install_blog(${1:\\$blog_id}, ${2:\\$blog_title})",
@@ -10269,11 +10260,6 @@
       "body": "wp_create_thumbnail(${1:\\$file}, ${2:\\$max_side}, ${3:\\$deprecated})",
       "description": "This was once used to create a thumbnail from an Image given a maximum side size."
     },
-    "wp_credits": {
-      "prefix": "wp_credits",
-      "body": "wp_credits()",
-      "description": "Retrieve the contributor credits."
-    },
     "wp_cron": {
       "prefix": "wp_cron",
       "body": "wp_cron()",
@@ -11298,11 +11284,6 @@
       "prefix": "wp_html_split",
       "body": "wp_html_split(${1:\\$input})",
       "description": "Separate HTML elements and comments from the text."
-    },
-    "wp_http_supports": {
-      "prefix": "wp_http_supports",
-      "body": "wp_http_supports(${1:\\$capabilities})",
-      "description": "Determines if there is an HTTP Transport that can process this request."
     },
     "wp_http_validate_url": {
       "prefix": "wp_http_validate_url",
@@ -14108,11 +14089,6 @@
       "prefix": "_wp_call_all_hook",
       "body": "_wp_call_all_hook(${1:\\$args})",
       "description": "Call the ‘all’ hook, which will process the functions hooked into it."
-    },
-    "_wp_credits_add_profile_link": {
-      "prefix": "_wp_credits_add_profile_link",
-      "body": "_wp_credits_add_profile_link(${1:\\$display_name}, ${2:\\$username}, ${3:\\$profiles})",
-      "description": "Retrieve the link to a contributor’s WordPress.org profile page."
     },
     "_wp_credits_build_object_link": {
       "prefix": "_wp_credits_build_object_link",

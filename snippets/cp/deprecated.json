@@ -1,0 +1,10 @@
+{
+	"wp_http_supports": {
+		"prefix": "wp_http_supports",
+		"body": [
+			"// Deprecated in ClassicPress",
+			"wp_http_supports(${1:\\$capabilities})"
+		],
+		"description": "Deprecated in ClassicPress - Determines if there is an HTTP Transport that can process this request."
+	}
+}

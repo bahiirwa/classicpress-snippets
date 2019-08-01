@@ -28,6 +28,14 @@
 			},
 			{
 				"language": "php",
+				"path": "./snippets/cp/modified.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/cp/deprecated.json"
+			},
+			{
+				"language": "php",
 				"path": "./snippets/wp/functions.json"
 			},
 			{

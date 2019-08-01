@@ -1,0 +1,15 @@
+{
+	"wp_credits": {
+		"prefix": "wp_credits",
+		"body": "wp_credits()",
+		"description": "Retrieve the contributor credits."
+	},
+	"_wp_credits_add_profile_link": {
+		"prefix": "_wp_credits_add_profile_link",
+		"body": [
+			"// Deprecated in ClassicPress",
+			"_wp_credits_add_profile_link(${1:\\$display_name}, ${2:\\$username}, ${3:\\$profiles})"
+		],
+		"description": "Deprecated in ClassicPress - Retrieve the link to a contributor’s WordPress.org profile page."
+	}
+}

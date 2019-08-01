@@ -1,0 +1,12 @@
+{
+	"extract_from_markers": {
+		"prefix": "extract_from_markers",
+		"body": "extract_from_markers(${1:\\$filename}, ${2:\\$marker})",
+		"description": "In ClassicPress, extra parameters added to support regular expressions. Extracts strings from between the BEGIN and END markers in the .htaccess file."
+	},
+	"insert_with_markers": {
+		"prefix": "insert_with_markers",
+		"body": "insert_with_markers(${1:\\$filename}, ${2:\\$marker}, ${3:\\$insertion})",
+		"description": "In ClassicPress, extra parameters added to support regular expressions. Inserts an array of strings into a file (.htaccess) placing it between BEGIN and END markers."
+	}
+}

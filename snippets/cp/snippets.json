@@ -1,17 +1,57 @@
 {
-  "ClassicPress Version Function": {
-    "prefix": "cp_version",
-    "body": "classicpress_version();",
-    "description": "Returns ClassicPress version e.g 1.0.0. Also the preferred way to check is ClassicPress is running as core for CMS"
-  },
-  "If ClassicPress Version Function": {
-    "prefix": "cp_if_version",
-    "body": [
-      "if ( function_exists( 'classicpress_version' ) ) {",
-      "   //logic",
-      "   ${1:logic}",
-      "}"
-    ],
-    "description": "Check if ClassicPress version function - classicPress_version() is available."
-  }
+	"cp_version": {
+		"prefix": "cp_version",
+		"body": "classicpress_version()",
+		"description": "Function - Returns ClassicPress version e.g 1.0.0. It is the recommended way for a plugin or theme to determine whether it is running under ClassicPress."
+	},
+	"cp_if_version": {
+		"prefix": "cp_if_version",
+		"body": [
+			"if ( function_exists( 'classicpress_version' ) ) {",
+			"   //logic",
+			"   ${1:logic}",
+			"}"
+		],
+		"description": "Conditional to check if ClassicPress version function - classicPress_version() is available."
+	},
+	"cp_is_dev_install": {
+		"prefix": "cp_dev_install",
+		"body": "classicpress_is_dev_install()",
+		"description": "Function - Returns whether ClassicPress is running as a source repository / development installation"
+	},
+	"cp_dev_version_info": {
+		"prefix": "cp_dev_version_info",
+		"body": "classicpress_dev_version_info()",
+		"description": "Returns information about the ClassicPress source version in use, if any"
+	},
+	"cp_version_short": {
+		"prefix": "cp_version_short",
+		"body": "classicpress_version_short()",
+		"description": "Function - Returns the ClassicPress version number without any prerelease version or other metadata"
+	},
+	"cp_asset_version": {
+		"prefix": "cp_asset_version",
+		"body": "classicpress_asset_version()",
+		"description": "Function that provides a common code path for specifying and modifying script and stylesheet version numbers / cache busters"
+	},
+	"cp_user_agent": {
+		"prefix": "cp_user_agent",
+		"body": "classicpress_user_agent()",
+		"description": "Function that provides a common code path for the User-Agent header value of outgoing HTTP requests"
+	},
+	"display_plugins_categories_list": {
+		"prefix": "display_plugins_categories_list",
+		"body": "display_plugins_categories_list()",
+		"description": "Function to display a new Categories tab in the plugins installation section"
+	},
+	"cp_dashboard_petitions": {
+		"prefix": "cp_dashboard_petitions",
+		"body": "cp_dashboard_petitions()",
+		"description": "Function to display ClassicPress petitions in the dashboard"
+	},
+	"cp_dashboard_petitions_output": {
+		"prefix": "cp_dashboard_petitions_output",
+		"body": "cp_dashboard_petitions_output()",
+		"description": "Function to display ClassicPress petitions in the dashboard"
+	}
 }
