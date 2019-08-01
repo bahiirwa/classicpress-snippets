@@ -3,7 +3,7 @@
 	"displayName": "ClassicPress - Snippets & autocomplete",
 	"description": "A collection of snippets for ClassicPress development",
 	"repository": "https://github.com/bahiirwa/classicpress-snippets",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.18.0"
 	},
