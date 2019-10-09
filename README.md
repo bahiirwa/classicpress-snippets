@@ -20,7 +20,7 @@ Autocomplete for:
 
 |                    | Functions | Constants/Classes |
 | ------------------ | :-------: | ----------------: |
-| ClassicPress 1.0.1 |    10     |                 0 |
+| ClassicPress 1.1.0 |    11     |                 0 |
 | WordPress 4.6.1    |   2884    |               191 |
 
 ### Install instructions
