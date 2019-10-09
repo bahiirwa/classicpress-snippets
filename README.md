@@ -39,6 +39,10 @@ Need to add WordPress functions between 4.6.1 and 4.9.9
 
 Initial Release of a ClassicPress Development snippets extension. This is a personal project and not an official extension.
 
+### 0.2.0
+
+- New functions from ClassicPress.
+
 ### 0.1.0
 
 Initial release
