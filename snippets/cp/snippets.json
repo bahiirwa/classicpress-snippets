@@ -53,5 +53,33 @@
 		"prefix": "cp_dashboard_petitions_output",
 		"body": "cp_dashboard_petitions_output()",
 		"description": "Function to display ClassicPress petitions in the dashboard"
+	},
+	"cp_add_security_page": {
+		"prefix": "add_security_page",
+		"body": [
+			"/**",
+			"* Add submenu page to the Security main menu.",
+			"*",
+			"* The function which is hooked in to handle the output of the page must check",
+			"* that the user has the required capability as well.",
+			"*",
+			"* @param string   $page_title The text to be displayed in the title tags of the page when the menu is selected.",
+			"* @param string   $menu_title The text to be used for the menu.",
+			"* @param string   $menu_slug  The slug name to refer to this menu by; must match an active plugin or mu-plugin slug.",
+			"* @param callable $function   The function to be called to output the content for this page.",
+			"* @return false|string The resulting page's hook_suffix, or false if the user does not have the 'manage_options' capability.",
+			"*/",
+			"if ( function_exists( 'add_security_page' ) ) {",
+			"   add_security_page(",
+			"       '${1:My Prodigious Plugin}',",
+			"       '${2:My Menu Title}',",
+			"       '${3:my-prodigious-plugin}',",
+			"       '${4:my-output-function}'",
+			"   );",
+			"} else {",
+			"   ${5:// existing menu code for WordPress}",
+			"}"
+		],
+		"description": "Add submenu page to the Security main menu."
 	}
 }
