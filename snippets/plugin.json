@@ -14,6 +14,23 @@
 			" * text-domain: ${8:prefix-plugin-name}",
 			"*/"
 		],
-		"description": "Required lines to start a plugin in WordPress"
+		"description": "Plugin start up details bootstrap"
+	},
+	"plugin_esc": {
+		"prefix": "plugin_esc",
+		"body": [
+			"// If this file is called directly, abort!",
+			"defined( 'ABSPATH' ) or die( 'Unauthorized Access!' );"
+		],
+		"description": "Plugin escape if this file is called directly, abort!"
+	},
+	"var_dump_pre_custom": {
+		"prefix": "var_dump_pre_custom",
+		"body": [
+			"echo '<pre>';",
+			"var_dump( wp_remote_retrieve_retrieve_body( $response ) );",
+			"echo '</pre>';"
+		],
+		"description": "Custom var_dump"
 	}
 }
