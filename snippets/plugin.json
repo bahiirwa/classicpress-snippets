@@ -4,12 +4,14 @@
 		"body": [
 			"/**",
 			" * Plugin Name: ${1:Plugin Name}",
-			" * Author Name: ${2:Plugin Author Name}",
-			" * Plugin URI: ${3:Plugin Author Link}",
+			" * Plugin URI: ${2:Plugin Author Link}",
+			" * Author Name: ${3:Plugin Author Name}",
 			" * Author URI: ${4:Plugin Author Link}",
 			" * Description: ${5:This plugin does wonders}",
 			" * Version: ${6:0.1.0}",
-			" * text-domain: ${7:prefix-plugin-name}",
+			" * License: ${6:GPL-2.0+}",
+			" * License URL: ${7:http://www.gnu.org/licenses/gpl-2.0.txt}",
+			" * text-domain: ${8:prefix-plugin-name}",
 			"*/"
 		],
 		"description": "Required lines to start a plugin in WordPress"
