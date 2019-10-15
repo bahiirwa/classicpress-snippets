@@ -33,16 +33,21 @@ Install via Extension Marketplace
 
 ## Known Issues
 
-Need to add WordPress functions between 4.6.1 and 4.9.9
+- [] Need to add WordPress functions between 4.6.1 and 4.9.9
+- [] Need to add ClassicPress functions version 1.1.0
 
 ## Release Notes
 
 Initial Release of a ClassicPress Development snippets extension. This is a personal project and not an official extension.
 
-### 0.2.0
+### [0.3.1]
+- Fix: broken numbers in css snippets
 
-- New functions from ClassicPress.
+### [0.3.0]
+- Add new theme specific functions
 
-### 0.1.0
+### [0.2.0]
+- Add new CP functions from CP 1.1.0
 
-Initial release
+### [0.1.0] - 2019-08-01
+- Initial release
