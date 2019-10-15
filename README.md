@@ -1,5 +1,7 @@
 # Classicpress Snippets
 
+[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Installs](https://vsmarketplacebadge.apphb.com/installs/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Build status](https://travis-ci.org/neild3r/vscode-classicpress-snippet.svg?branch=master)](https://travis-ci.org/neild3r/vscode-classicpress-snippet) [![Coverage status](https://coveralls.io/repos/github/neild3r/vscode-classicpress-snippet/badge.svg)](https://coveralls.io/github/neild3r/vscode-classicpress-snippet)
+
 This is a collection of WordPress snippets and autocompletions for Visual Studio Code.
 
 Classicpress Snippets is meant to help VS Code users to leverage snippets from ClassicPress and WordPress for Development. This is a personal project and not an official extension from ClassicPress.net.
@@ -20,8 +22,8 @@ Autocomplete for:
 
 |                    | Functions | Constants/Classes |
 | ------------------ | :-------: | ----------------: |
-| ClassicPress 1.1.0 |    11     |                 0 |
-| WordPress 4.6.1    |   2884    |               191 |
+| ClassicPress 1.1.0 |    14+    |                0+ |
+| WordPress 4.6.1    |   2884+   |              191+ |
 
 ### Install instructions
 
@@ -33,8 +35,8 @@ Install via Extension Marketplace
 
 ## Known Issues
 
-- [] Need to add WordPress functions between 4.6.1 and 4.9.9
-- [] Need to add ClassicPress functions version 1.1.0
+- Need to add WordPress functions between 4.6.1 and 4.9.9
+- Need to add ClassicPress functions version 1.1.0
 
 ## Release Notes
 
