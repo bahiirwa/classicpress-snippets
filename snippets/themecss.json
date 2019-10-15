@@ -21,11 +21,11 @@
 			" * Description: ${2:This Theme does wonders}",
 			" * Author: ${3:Theme Author Name}",
 			" * Version: ${4:0.1.0}",
-			" * License: ${5:GPL-2.0+}",
-			" * Template: ${6:parent-theme-name}",
+			" * License: ${6:GPL-2.0+}",
+			" * Template: ${7:parent-theme-name}",
 			"*/",
 			"",
-			"@import url('../${6:parent-theme-name}/style.css');"
+			"@import url('../${7:parent-theme-name}/style.css');"
 		],
 		"description": "Theme start up details bootstrap"
 	}
