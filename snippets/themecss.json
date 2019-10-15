@@ -1,0 +1,32 @@
+{
+	"theme_start": {
+		"prefix": "theme_start",
+		"body": [
+			"/**",
+			" * Theme Name: ${1:Theme Name}",
+			" * Description: ${2:This Theme does wonders}",
+			" * Author: ${3:Theme Author Name}",
+			" * Version: ${4:0.1.0}",
+			" * License: ${6:GPL-2.0+}",
+			" * Template: ${7:theme-name}",
+			"*/"
+		],
+		"description": "Theme start up details bootstrap"
+	},
+	"child_theme_start": {
+		"prefix": "child_theme_start",
+		"body": [
+			"/**",
+			" * Theme Name: ${1:Child Theme Name}",
+			" * Description: ${2:This Theme does wonders}",
+			" * Author: ${3:Theme Author Name}",
+			" * Version: ${4:0.1.0}",
+			" * License: ${6:GPL-2.0+}",
+			" * Template: ${7:parent-theme-name}",
+			"*/",
+			"",
+			"@import url('../${7:parent-theme-name}/style.css');"
+		],
+		"description": "Theme start up details bootstrap"
+	}
+}
