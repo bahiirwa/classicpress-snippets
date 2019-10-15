@@ -33,6 +33,14 @@
 	"contributes": {
 		"snippets": [
 			{
+				"language": "css",
+				"path": "./snippets/themecss.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/theme.json"
+			},
+			{
 				"language": "php",
 				"path": "./snippets/plugin.json"
 			},
