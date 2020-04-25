@@ -43,16 +43,17 @@ Install via Extension Marketplace
 Initial Release of a ClassicPress Development snippets extension. This is a personal project and not an official extension.
 
 ### [0.3.2]
-- Fix: broken numbers in custom php snippets
+- Fix: broken numbers in custom php snippets.
+- Fix: Coverage badges.
 
 ### [0.3.1]
-- Fix: broken numbers in css snippets
+- Fix: broken numbers in css snippets.
 
 ### [0.3.0]
-- Add new theme specific functions
+- Add new theme specific functions.
 
 ### [0.2.0]
-- Add new CP functions from CP 1.1.0
+- Add new CP functions from CP 1.1.0.
 
 ### [0.1.0] - 2019-08-01
-- Initial release
+- Initial release.
