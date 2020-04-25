@@ -5,8 +5,8 @@
 			"/**",
 			" * Plugin Name: ${1:Plugin Name}",
 			" * Plugin URI: ${2:Plugin Author Link}",
-			" * Author Name: ${3:Plugin Author Name}",
-			" * Author URI: ${4:Plugin Author Link}",
+			" * Author: ${3:Plugin Author Name}",
+			" * Author URI: ${2:Plugin Author Link}",
 			" * Description: ${5:This plugin does wonders}",
 			" * Version: ${6:0.1.0}",
 			" * License: ${6:GPL-2.0+}",
@@ -16,21 +16,21 @@
 		],
 		"description": "Plugin start up details bootstrap"
 	},
-	"plugin_esc": {
-		"prefix": "plugin_esc",
+	"plugin_die": {
+		"prefix": "plugin_abs_die",
 		"body": [
 			"// If this file is called directly, abort!",
-			"defined( 'ABSPATH' ) or die( 'Unauthorized Access!' );"
+			"defined( 'ABSPATH' ) || die( 'Unauthorized Access!' );"
 		],
 		"description": "Plugin escape if this file is called directly, abort!"
 	},
 	"var_dump_pre_custom": {
-		"prefix": "var_dump_pre_custom",
+		"prefix": "pre_var_dump",
 		"body": [
 			"echo '<pre>';",
-			"var_dump( wp_remote_retrieve_retrieve_body( $response ) );",
+			"var_dump( ${1:$response} );",
 			"echo '</pre>';"
 		],
-		"description": "Custom var_dump"
+		"description": "var_dump with pre tags."
 	}
 }

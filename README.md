@@ -1,6 +1,6 @@
 # Classicpress Snippets
 
-[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Installs](https://vsmarketplacebadge.apphb.com/installs/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Build status](https://travis-ci.org/neild3r/vscode-classicpress-snippet.svg?branch=master)](https://travis-ci.org/neild3r/vscode-classicpress-snippet) [![Coverage status](https://coveralls.io/repos/github/neild3r/vscode-classicpress-snippet/badge.svg)](https://coveralls.io/github/neild3r/vscode-classicpress-snippet)
+[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Installs](https://vsmarketplacebadge.apphb.com/installs/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Build status](https://travis-ci.org/bahiirwa/classicpress-snippet.svg?branch=master)](https://travis-ci.org/bahiirwa/classicpress-snippet)
 
 This is a collection of WordPress snippets and autocompletions for Visual Studio Code.
 
@@ -41,6 +41,9 @@ Install via Extension Marketplace
 ## Release Notes
 
 Initial Release of a ClassicPress Development snippets extension. This is a personal project and not an official extension.
+
+### [0.3.2]
+- Fix: broken numbers in custom php snippets
 
 ### [0.3.1]
 - Fix: broken numbers in css snippets
