@@ -31,6 +31,6 @@
 			"var_dump( ${1:$response} );",
 			"echo '</pre>';"
 		],
-		"description": "var_dump with pre tags."
+		"description": "var_dump function with <pre> tags."
 	}
 }
