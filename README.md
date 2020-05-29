@@ -13,25 +13,23 @@ Type `start_plugin` or `cp_dev` and hit tab to see autocompletions in work.
 ![Demo](images/demo.gif)
 
 -   License: GPLv3
--   Version: 0.1.0
+-   Version: 0.3.3
 -   Extension URI: https://github.com/bahiirwa/classicpress-snippet
 
 ### Features
 
 Autocomplete for:
 
-|                    | Functions | Constants/Classes |
+| Software           | Functions | Constants/Classes |
 | ------------------ | :-------: | ----------------: |
 | ClassicPress 1.1.0 |    14+    |                0+ |
 | WordPress 4.6.1    |   2884+   |              191+ |
 
 ### Install instructions
 
-Install via Extension Marketplace
-
--   Open Command on Visual Studio Code (Ctrl+Shift+P on Windows or Cmd+Shift+P on Mac/OSX)
--   > ext install classicpress-snippet
--   Wait until install complete and restart VS Code
+Install via Extension Marketplace inside VS Code.
+- Search for Classicpress 
+- Install and use.
 
 ## Known Issues
 
@@ -41,6 +39,10 @@ Install via Extension Marketplace
 ## Release Notes
 
 Initial Release of a ClassicPress Development snippets extension. This is a personal project and not an official extension.
+
+### [0.3.3]
+- Fix:
+- Add:
 
 ### [0.3.2]
 - Fix: broken numbers in custom php snippets.
