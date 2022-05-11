@@ -14,7 +14,7 @@ Type `start_plugin` or `cp_dev` and hit tab to see autocompletions in work.
 
 -   License: GPLv3
 -   Version: 0.3.3
--   Extension URI: https://github.com/bahiirwa/classicpress-snippet
+-   Extension URI: https://github.com/bahiirwa/classicpress-snippets
 
 ### Features
 
