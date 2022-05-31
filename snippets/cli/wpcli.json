@@ -1,0 +1,73 @@
+{
+    "wp_cli_add_command": {
+      "prefix": "wp_cli_add_command",
+      "body": "WP_CLI::add_command(${1:\\$name}, ${2:\\$callable}, ${3:\\$args = []});",
+      "description": "WP_CLI: Register a command to WP-CLI."
+    },
+    "wp_cli_add_hook": {
+		"prefix": "wp_cli_add_hook",
+		"body": "WP_CLI::add_hook(${1:\\$when}, ${2:\\$callable});",
+		"description": "WP_CLI: Schedule a callback to be executed at a certain point."
+    },
+    "wp_cli_add_wp_hook": {
+		"prefix": "wp_cli_add_wp_hook",
+		"body": "WP_CLI::add_wp_hook(${1:\\$tag}, ${2:\\$function_to_add}, ${3:\\$priority = 10}, ${4:\\$accepted_args = 1});",
+      "description":"WP_CLI: Add a callback to a WordPress action or filter."
+    },
+    "wp_cli_colorize": {
+		"prefix": "wp_cli_colorize",
+		"body": "WP_CLI::colorize(${1:\\$string);",
+		"description":"WP_CLI: Colorize a string for output."
+    },
+	"wp_cli_confirm": {
+	  "prefix": "wp_cli_confirm",
+	  "body": "WP_CLI::confirm(${1:\\$question}, ${2:\\$assoc_args = []});",
+	  "description": "WP_CLI: Ask for confirmation before running a destructive operation."
+	},
+	"wp_cli_debug": {
+	  "prefix": "wp_cli_debug",
+	  "body": "WP_CLI::debug(${1:\\$message}, ${2:\\$group = false});",
+	  "description": "WP_CLI: Display debug message prefixed with \"Debug: \" when --debug is used. Debug message is written to STDERR, and includes script execution time."
+	},
+	"wp_cli_do_hook": {
+		"prefix": "wp_cli_do_hook",
+		"body": "WP_CLI::do_hook(${1:\\$when}, ${2:\\$callable});",
+		"description": "WP_CLI: Execute callbacks registered to a given hook."
+	},
+	"wp_cli_comment": {
+		"prefix": "wp_cli_comment",
+		"body": [
+			"/**",
+			"* Schedule a new cron event is the command description. The command description should be under 50 characters and written in an active, present tense.",
+			"*",
+			"* The options section should start with ## OPTIONS Keep a blank line before and after the heading.",
+			"*",
+			"* <hook>",
+			"* : The hook name.",
+			"*",
+			"* [<next-run>]",
+			"* : A Unix timestamp or an English textual datetime description compatible with `strtotime()`. Defaults to now.",
+			"*",
+			"* [--<field>=<value>]",
+			"* : Associative args for the event.",
+			"* ---",
+			"* default: table",
+			"* options:",
+			"*  - table",
+			"*  - csv",
+			"*  - json",
+			"*  - count",
+			"*  - yaml",
+			"* ---",
+			"*",
+			"* The example section should start with ## EXAMPLES. Keep a blank line before and after the heading",
+			"*",
+			"*     Description Must start with # and a space. Sentence should start with a capital letter. Comment must end in full-stops, exclamation marks, or question marks. Eg: # Create database.",
+			"*     Command Must start with $ and a space. Eg: $ wp db create",
+			"*     Sample Output Keep exact output. Note spaces and indentation in the output. Exception: If output is very long, it could be truncated to show suitable section only. Eg: Success: Database created. If possible, keep at least two examples for each command. One showing basic use and another advanced use. More use cases the better.",
+			"*",
+			"*/"
+		],
+		"description": "WP_CLI: Commenting your function/method inside a class for CLI documentation."
+	}
+}

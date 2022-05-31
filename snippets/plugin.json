@@ -4,19 +4,19 @@
 		"body": [
 			"/**",
 			" * Plugin Name: ${1:Plugin Name}",
-			" * Plugin URI: ${2:Plugin Author Link}",
+			" * Plugin URI: ${2:Plugin URL Link}",
 			" * Author: ${3:Plugin Author Name}",
-			" * Author URI: ${2:Plugin Author Link}",
+			" * Author URI: ${4:Plugin Author Link}",
 			" * Description: ${5:This plugin does wonders}",
 			" * Version: ${6:0.1.0}",
-			" * License: ${6:GPL-2.0+}",
-			" * License URL: ${7:http://www.gnu.org/licenses/gpl-2.0.txt}",
-			" * text-domain: ${8:prefix-plugin-name}",
+			" * License: ${7:GPL-2.0+}",
+			" * License URL: ${8:http://www.gnu.org/licenses/gpl-2.0.txt}",
+			" * text-domain: ${9:prefix-plugin-name}",
 			"*/"
 		],
 		"description": "Plugin start up details bootstrap"
 	},
-	"plugin_die": {
+	"plugin_abs_die": {
 		"prefix": "plugin_abs_die",
 		"body": [
 			"// If this file is called directly, abort!",
@@ -24,13 +24,29 @@
 		],
 		"description": "Plugin escape if this file is called directly, abort!"
 	},
-	"var_dump_pre_custom": {
+	"pre_var_dump_custom": {
 		"prefix": "pre_var_dump",
 		"body": [
 			"echo '<pre>';",
-			"var_dump( ${1:$response} );",
+			"var_dump( ${1:\\$response} );",
 			"echo '</pre>';"
 		],
 		"description": "var_dump function with <pre> tags."
+	},
+	"debug_wp_config": {
+		"prefix": "debug_wp_config",
+		"body": [
+			"define( 'WP_DEBUG', ${1:true} );",
+			"define( 'WP_DEBUG_LOG', ${1:true} );",
+			"define( 'WP_DEBUG_DISPLAY', ${1:true} );"
+		],
+		"description": "Add debug to the wp-config.php file to allow loggin errors."
+	},
+	"print_error_log": {
+		"prefix": "print_error_log",
+		"body": [
+			"error_log( print_r( ${1:\\$log}, true ) );"
+		],
+		"description": "Add debug to the wp-config.php file to allow loggin errors."
 	}
 }

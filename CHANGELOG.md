@@ -2,9 +2,9 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-### [0.3.3]
-- Fix: 
-- Add:
+### [0.4.0]
+- Fix: A few command names. Fix the plugin_start() to seperate the author and plugin link.
+- Add: WP Cli functions
 
 ### [0.3.2]
 - Fix: broken numbers in custom php snippets.

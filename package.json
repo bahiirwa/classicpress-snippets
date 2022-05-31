@@ -24,7 +24,7 @@
 		"php",
 		"ClassicPress",
 		"WordPress",
-		"plugin",
+		"plugins",
 		"themes"
 	],
 	"categories": [
@@ -63,6 +63,10 @@
 			{
 				"language": "php",
 				"path": "./snippets/wp/classes.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/cli/wpcli.json"
 			}
 		]
 	}

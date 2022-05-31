@@ -24,11 +24,12 @@ Autocomplete for:
 | ------------------ | :-------: | ----------------: |
 | ClassicPress 1.1.0 |    14+    |                0+ |
 | WordPress 4.6.1    |   2884+   |              191+ |
+| WP CLI             |   4+      |                1+ |
 
 ### Install instructions
 
 Install via Extension Marketplace inside VS Code.
-- Search for Classicpress 
+- Search for Classicpress
 - Install and use.
 
 ## Known Issues
@@ -40,9 +41,9 @@ Install via Extension Marketplace inside VS Code.
 
 Initial Release of a ClassicPress Development snippets extension. This is a personal project and not an official extension.
 
-### [0.3.3]
-- Fix:
-- Add:
+### [0.4.0]
+- Fix: A few command names. Fix the plugin_start() to seperate the author and plugin link.
+- Add: WP Cli functions
 
 ### [0.3.2]
 - Fix: broken numbers in custom php snippets.
