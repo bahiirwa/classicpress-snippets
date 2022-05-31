@@ -1,6 +1,6 @@
 {
 	"name": "classicpress-snippets",
-	"displayName": "ClassicPress snippets and autocompletions.",
+	"displayName": "WordPress + ClassicPress snippets and autocompletions.",
 	"description": "A collection of snippets and autocompletions for ClassicPress & WordPress theme and plugins development.",
 	"publisher": "laurencebahiirwa",
 	"author": {
@@ -15,7 +15,7 @@
 	"bugs": {
 		"url": "https://github.com/bahiirwa/classicpress-snippets/issues"
 	},
-	"version": "0.3.3",
+	"version": "0.4.0",
 	"engines": {
 		"vscode": "^1.18.0"
 	},
@@ -30,6 +30,9 @@
 	"categories": [
 		"Snippets"
 	],
+	"scripts": {
+		"deploy": "vsce publish --yarn"
+	},
 	"contributes": {
 		"snippets": [
 			{
@@ -69,5 +72,8 @@
 				"path": "./snippets/cli/wpcli.json"
 			}
 		]
+	},
+	"devDependencies": {
+		"vsce": "^2.9.0"
 	}
 }
