@@ -41,6 +41,9 @@ Install via Extension Marketplace inside VS Code.
 
 Initial Release of a ClassicPress Development snippets extension. This is a personal project and not an official extension.
 
+### [0.4.1]
+- Add automation deploy
+
 ### [0.4.0]
 - Fix: A few command names. Fix the plugin_start() to seperate the author and plugin link.
 - Add: WP Cli functions
