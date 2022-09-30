@@ -1,10 +1,15 @@
-# Classicpress Snippets
+# ClassicPress Snippets
 
 [![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Installs](https://vsmarketplacebadge.apphb.com/installs/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Build status](https://travis-ci.org/bahiirwa/classicpress-snippet.svg?branch=master)](https://travis-ci.org/bahiirwa/classicpress-snippet)
 
-This is a collection of WordPress snippets and autocompletions for Visual Studio Code.
+This is a collection of WordPress snippets and autocompletions for use in Visual Studio Code.
 
-Classicpress Snippets is meant to help VS Code users to leverage snippets from ClassicPress and WordPress for Development. This is a personal project and not an official extension from ClassicPress.net.
+ClassicPress Snippets is meant to enable VS Code users use snippets from ClassicPress and WordPress in their plugin and theme Development.
+
+Initial Release [1st August 2019] of a ClassicPress Development snippets extension.
+*This is a personal project and not an official extension from ClassicPress.net or WordPress.org.*
+
+[See changelog via ](https://marketplace.visualstudio.com/items/laurencebahiirwa.classicpress-snippets/changelog)
 
 ### How to use
 
@@ -12,8 +17,8 @@ Type `start_plugin` or `cp_dev` and hit tab to see autocompletions in work.
 
 ![Demo](images/demo.gif)
 
--   License: GPLv3
--   Version: 0.3.3
+-   License: MIT
+-   Version: 0.5.1
 -   Extension URI: https://github.com/bahiirwa/classicpress-snippets
 
 ### Features
@@ -26,40 +31,13 @@ Autocomplete for:
 | WordPress 4.6.1    |   2884+   |              191+ |
 | WP CLI             |   4+      |                1+ |
 
-### Install instructions
+and counting.
 
-Install via Extension Marketplace inside VS Code.
-- Search for Classicpress
+### Installation instructions
+
+- Install via Extension Marketplace inside VS Code.
+- Search for `Classicpress Snippets`
 - Install and use.
 
 ## Known Issues
-
-- Need to add WordPress functions between 4.6.1 and 4.9.9
-- Need to add ClassicPress functions version 1.1.0
-
-## Release Notes
-
-Initial Release of a ClassicPress Development snippets extension. This is a personal project and not an official extension.
-
-### [0.4.1]
-- Add automation deploy
-
-### [0.4.0]
-- Fix: A few command names. Fix the plugin_start() to seperate the author and plugin link.
-- Add: WP Cli functions
-
-### [0.3.2]
-- Fix: broken numbers in custom php snippets.
-- Fix: Coverage badges.
-
-### [0.3.1]
-- Fix: broken numbers in css snippets.
-
-### [0.3.0]
-- Add new theme specific functions.
-
-### [0.2.0]
-- Add new CP functions from CP 1.1.0.
-
-### [0.1.0] - 2019-08-01
-- Initial release.
+Please find all known or make any new [issues here](https://github.com/bahiirwa/classicpress-snippets/issues)
