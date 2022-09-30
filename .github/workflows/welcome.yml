@@ -12,7 +12,7 @@ jobs:
       - uses: bubkoo/welcome-action@8dbbac2540d155744c90e4e37da6b05ffc9c5e2c # v1.0.3
         with:
           GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
-          FIRST_PR_COMMENT: >
+          FIRST_PR_COMMENT:
             Hi @{{ author }}! 👋
             Thank you for your contribution to ClassicPress Snippets! 💖
             It looks like this is your first pull request. We appreciate and value your contribution!
