@@ -1,20 +1,28 @@
 {
 	"theme_start": {
-		"prefix": "theme_start",
+		"prefix": "start_theme",
 		"body": [
 			"/**",
 			" * Theme Name: ${1:Theme Name}",
-			" * Description: ${2:This Theme does wonders}",
+			" * Theme URI: ${2:Theme URL Link}",
 			" * Author: ${3:Theme Author Name}",
-			" * Version: ${4:0.1.0}",
-			" * License: ${6:GPL-2.0+}",
-			" * Template: ${7:theme-name}",
+			" * Author URI: ${4:Theme Author Link}",
+			" * Description: ${5:This is Parent Theme X}",
+			" * Version: ${6:0.1.0}",
+			" * Template: ${7:0.1.0}",
+			" * License: ${8:GPL-2.0+}",
+			" * License URL: ${9:http://www.gnu.org/licenses/gpl-2.0.txt}",
+			" * Text Domain: ${10:prefix-theme-name}",
+			" * Requires at least: ${7:4.9}",
+			" * Requires PHP: ${7:7.0}",
+			" * Tested up to: ${8:5.5}",
+			" * Tags: ${9:comma, seperated, tags }",
 			"*/"
 		],
 		"description": "Theme start up details bootstrap"
 	},
 	"child_theme_start": {
-		"prefix": "child_theme_start",
+		"prefix": "start_theme_child",
 		"body": [
 			"/**",
 			" * Theme Name: ${1:Child Theme Name}",
@@ -22,7 +30,7 @@
 			" * Author: ${3:Theme Author Name}",
 			" * Version: ${4:0.1.0}",
 			" * License: ${6:GPL-2.0+}",
-			" * Template: ${7:parent-theme-name}",
+			" * Template: ${7:parent-theme-name-text-domain}",
 			"*/",
 			"",
 			"@import url('../${7:parent-theme-name}/style.css');"

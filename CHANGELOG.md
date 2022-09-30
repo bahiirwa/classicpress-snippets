@@ -2,9 +2,16 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [0.5.0]
+- Fix: plugin_start() for licensing defaults.
+- Add: WP CLI functions.
+- Add: Theme creation functions.
+- Add: `print_error_log` functions for debugging.
+- Add: `debug_wp_config` functions for wp-config.php file.
+
 ### [0.4.0]
 - Fix: A few command names. Fix the plugin_start() to seperate the author and plugin link.
-- Add: WP Cli functions
+- Add: WP CLI functions
 
 ### [0.3.2]
 - Fix: broken numbers in custom php snippets.

@@ -1,7 +1,7 @@
 {
 	"name": "classicpress-snippets",
-	"displayName": "WordPress + ClassicPress snippets and autocompletions.",
-	"description": "A collection of snippets and autocompletions for ClassicPress & WordPress theme and plugins development.",
+	"displayName": "WordPress & ClassicPress snippets plus autocompletions.",
+	"description": "Snippets and autocompletions collection for ClassicPress & WordPress theme and plugins development.",
 	"publisher": "laurencebahiirwa",
 	"author": {
 		"name": "Laurence Bahiirwa"
@@ -15,7 +15,7 @@
 	"bugs": {
 		"url": "https://github.com/bahiirwa/classicpress-snippets/issues"
 	},
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"engines": {
 		"vscode": "^1.18.0"
 	},
@@ -38,10 +38,6 @@
 			{
 				"language": "css",
 				"path": "./snippets/themecss.json"
-			},
-			{
-				"language": "php",
-				"path": "./snippets/theme.json"
 			},
 			{
 				"language": "php",
