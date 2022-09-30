@@ -1,0 +1,27 @@
+{
+	"pre_var_dump_custom": {
+		"prefix": "pre_var_dump",
+		"body": [
+			"echo '<pre>';",
+			"var_dump( ${1:\\$response} );",
+			"echo '</pre>';"
+		],
+		"description": "var_dump function with <pre> tags."
+	},
+	"debug_wp_config": {
+		"prefix": "debug_wp_config",
+		"body": [
+			"define( 'WP_DEBUG', ${1:true} );",
+			"define( 'WP_DEBUG_LOG', ${1:true} );",
+			"define( 'WP_DEBUG_DISPLAY', ${1:true} );"
+		],
+		"description": "Add debug to the wp-config.php file to allow logging of PHP errors."
+	},
+	"print_error_log": {
+		"prefix": "print_error_log",
+		"body": [
+			"error_log( print_r( ${1:\\$log}, true ) );"
+		],
+		"description": "Log PHP errors in the debug.php file."
+	}
+}
