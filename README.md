@@ -1,6 +1,8 @@
 # ClassicPress Snippets
 
-[![Latest Release](https://vsmarketplacebadge.apphb.com/version-short/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Installs](https://vsmarketplacebadge.apphb.com/installs/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet) [![Build status](https://travis-ci.org/bahiirwa/classicpress-snippet.svg?branch=master)](https://travis-ci.org/bahiirwa/classicpress-snippet)
+[![Version](https://vsmarketplacebadge.apphb.com/version/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet)
 
 This is a collection of WordPress snippets and autocompletions for use in Visual Studio Code.
 
