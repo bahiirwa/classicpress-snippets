@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file. This projec
 - Fix: Folder structure.
 - Fix: Better Documentation flow and links.
 - Fix: Missing links to json files for theme completions.
+- Add: MIT license.
 
 ### [0.5.0]
 - Fix: plugin_start() for licensing defaults.
