@@ -1,8 +1,8 @@
 # ClassicPress Snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/laurencebahiirwa.classicpress-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=laurencebahiirwa.classicpress-snippet)
+![Version](https://img.shields.io/visual-studio-marketplace/v/laurencebahiirwa.classicpress-snippets?style=flat-square)
+![Downloads](https://img.shields.io/visual-studio-marketplace/d/laurencebahiirwa.classicpress-snippets?style=flat-square)
+![Rating](https://img.shields.io/visual-studio-marketplace/r/laurencebahiirwa.classicpress-snippets?style=flat-square)
 
 This is a collection of WordPress snippets and autocompletions for use in Visual Studio Code.
 
