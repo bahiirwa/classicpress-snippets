@@ -6,7 +6,7 @@
 	"author": {
 		"name": "Laurence Bahiirwa"
 	},
-	"license": "GPLv3",
+	"license": "MIT",
 	"homepage": "https://github.com/bahiirwa/classicpress-snippets",
 	"repository": {
 		"type": "git",
@@ -15,7 +15,7 @@
 	"bugs": {
 		"url": "https://github.com/bahiirwa/classicpress-snippets/issues"
 	},
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"engines": {
 		"vscode": "^1.18.0"
 	},
@@ -36,40 +36,40 @@
 	"contributes": {
 		"snippets": [
 			{
-				"language": "php",
-				"path": "./snippets/general.json"
-			},
-			{
 				"language": "css",
-				"path": "./snippets/themecss.json"
+				"path": "./snippets/css/theme.json"
 			},
 			{
 				"language": "php",
-				"path": "./snippets/plugin.json"
+				"path": "./snippets/php/general.json"
 			},
 			{
 				"language": "php",
-				"path": "./snippets/cp/snippets.json"
+				"path": "./snippets/php/plugin.json"
 			},
 			{
 				"language": "php",
-				"path": "./snippets/cp/modified.json"
+				"path": "./snippets/php/cp/snippets.json"
 			},
 			{
 				"language": "php",
-				"path": "./snippets/cp/deprecated.json"
+				"path": "./snippets/php/cp/modified.json"
 			},
 			{
 				"language": "php",
-				"path": "./snippets/wp/functions.json"
+				"path": "./snippets/php/cp/deprecated.json"
 			},
 			{
 				"language": "php",
-				"path": "./snippets/wp/classes.json"
+				"path": "./snippets/php/wp/functions.json"
 			},
 			{
 				"language": "php",
-				"path": "./snippets/cli/wpcli.json"
+				"path": "./snippets/php/wp/classes.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/php/cli/wpcli.json"
 			}
 		]
 	},
