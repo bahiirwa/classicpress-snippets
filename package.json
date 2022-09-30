@@ -1,7 +1,7 @@
 {
 	"name": "classicpress-snippets",
-	"displayName": "WordPress & ClassicPress snippets plus autocompletions.",
-	"description": "Snippets and autocompletions collection for ClassicPress & WordPress theme and plugins development.",
+	"displayName": "ClassicPress Snippets & Auto-Completions",
+	"description": "A snippets and autocompletions collection for WordPress & ClassicPress theme and plugins development.",
 	"publisher": "laurencebahiirwa",
 	"author": {
 		"name": "Laurence Bahiirwa"

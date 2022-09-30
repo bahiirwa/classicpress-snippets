@@ -4,7 +4,7 @@
 ![Downloads](https://img.shields.io/visual-studio-marketplace/d/laurencebahiirwa.classicpress-snippets?style=flat-square)
 ![Rating](https://img.shields.io/visual-studio-marketplace/r/laurencebahiirwa.classicpress-snippets?style=flat-square)
 
-ClassicPress Snippets enables Visual Studio Code users use snippets and autocompletions from ClassicPress and WordPress in their plugin and theme Development.
+ClassicPress Snippets enables Visual Studio Code users to use ClassicPress + WordPress snippets and autocompletions in plugin and theme Development.
 
 Initial Release [1st August 2019] of a ClassicPress Development snippets extension. [Click here to see changelog](https://marketplace.visualstudio.com/items/laurencebahiirwa.classicpress-snippets/changelog)
 
