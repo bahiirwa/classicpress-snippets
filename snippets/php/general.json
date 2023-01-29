@@ -29,29 +29,29 @@
 		"body": [
 			"// @param string $message Error needed for print",
 			"// @param string $pre Context text string for where logging happens / expected data should be",
-			"dd( ${1:$message}, ${2:$pre} );"
+			"dd( ${1:\\$message}, ${2:\\$pre} );"
 		],
 		"description": "Uses clog_detailed in helpers to Log PHP errors with context in the debug.php file."
 	},
-	"clog_detailed": {
-		"prefix": "clog_detailed",
+	"dd_detailed": {
+		"prefix": "dd_detailed",
 		"body": [
 			"/**",
 			 "* @param mixed  $message Error needed for print",
 			 "* @param string $pre     Context text string for where logging happens / expected data should be",
 			 "* @return void",
 			 "*/",
-			"function dd( ${1:$message}, $pre = '' ) {",
-				"if ( true === WP_DEBUG && ! defined( 'DOING_CRON' ) && ! defined( 'DOING_AJAX' ) ) {",
-					"if ( $pre ) {",
+			"function print_error_log( ${1:\\$message}, $pre = '' ) {",
+			"   if ( true === WP_DEBUG && ! defined( 'DOING_CRON' ) && ! defined( 'DOING_AJAX' ) ) {",
+			"       if ( $pre ) {",
 						"error_log( $pre );",
-					"}",
-					"if ( is_array( ${1:$message} ) || is_object( ${1:$message} ) ) {",
-						"error_log( print_r( ${1:$message}, true ) );",
-					"} else {",
-						"error_log( ${1:$message} );",
-					"}",
-				"}",
+			"       }",
+			"       if ( is_array( ${1:\\$message} ) || is_object( ${1:\\$message} ) ) {",
+			"           error_log( print_r( ${1:\\$message}, true ) );",
+			"       } else {",
+			"           error_log( ${1:\\$message} );",
+			"       }",
+			"   }",
 			"}"
 		],
 		"description": "Log PHP errors with context in the debug.php file."
