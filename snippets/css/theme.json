@@ -1,5 +1,5 @@
 {
-	"theme_start": {
+	"start_theme": {
 		"prefix": "start_theme",
 		"body": [
 			"/**",
@@ -21,7 +21,7 @@
 		],
 		"description": "Theme start up details bootstrap"
 	},
-	"child_theme_start": {
+	"start_theme_child": {
 		"prefix": "start_theme_child",
 		"body": [
 			"/**",

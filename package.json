@@ -15,7 +15,7 @@
 	"bugs": {
 		"url": "https://github.com/bahiirwa/classicpress-snippets/issues"
 	},
-	"version": "0.5.1",
+	"version": "0.5.2",
 	"engines": {
 		"vscode": "^1.18.0"
 	},
@@ -38,6 +38,10 @@
 			{
 				"language": "css",
 				"path": "./snippets/css/theme.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/php/general.json"
 			},
 			{
 				"language": "php",

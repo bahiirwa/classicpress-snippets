@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [0.5.2]
+- Fix: Add consistency in the child theme snippets.
+- Add: New snippets for JS logs.
+- Add: Snippets for detailed error logs
+
 ### [0.5.1]
 - Fix: Folder structure.
 - Fix: Better Documentation flow and links.
